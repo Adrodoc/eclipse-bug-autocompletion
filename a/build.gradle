@@ -1,0 +1,15 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+evaluationDependsOn ':annotation'
+evaluationDependsOn ':lib'
+
+dependencies {
+  compileOnly files(project(':annotation').jar.archivePath)
+  compile files(project(':lib').jar.archivePath)
+}
+
+eclipseClasspath {
+  dependsOn project(':annotation').jar
+  dependsOn project(':lib').jar
+}

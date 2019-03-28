@@ -8,12 +8,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry kind="lib" path="C:/Devel/workspace/EclipseAutoCompletionBug/lib/build/libs/lib.jar">
+	<classpathentry kind="lib" path="/lib/build/libs/lib.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Devel/workspace/EclipseAutoCompletionBug/annotation/build/libs/annotation.jar">
+	<classpathentry kind="lib" path="/annotation/build/libs/annotation.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value=""/>
 		</attributes>

@@ -6,3 +6,6 @@ Steps to reproduce
 * Open the class `com.github.kussm.b.MyClass`
 * Try to call a Method like `getClass()`, `hashCode()` or `withValue(String)` on the result of `bar()` within the brackets of `consumeObject(Object)`, there are no code suggestions for any methods
 * Try the same outside of `consumeObject(Object)` (or change any other precondition listed in the javadoc of `com.github.kussm.b.MyClass.method()`) and you will get code suggestions from Eclipse
+
+![no-codesuggestions](no-codesuggestions-screenshot.png)
+![codesuggestions](codesuggestions-screenshot.png)

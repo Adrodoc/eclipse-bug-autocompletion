@@ -6,6 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Target(ElementType.METHOD)
-@Retention(RetentionPolicy.RUNTIME) // Retention has to be CLASS or RUNTIME, but not SOURCE
+@Retention(RetentionPolicy.CLASS) // Retention has to be CLASS or RUNTIME, but not SOURCE
 public @interface MyAnnotation {
 }
